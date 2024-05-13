@@ -1,0 +1,35 @@
+.container{
+    background-color: #fff;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.body{
+    background-color: #32373c;
+}
+.elementor-button {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    fill: #1D1D1D;
+    color: #1D1D1D;
+    background-color: #61CE7000;
+    border-style: solid;
+    border-width: 6px 6px 6px 6px;
+    border-color: #1D1D1D;
+    border-radius: 13px 13px 13px 13px;
+}
+.elementor-button:hover,.elementor-button:focus {
+    color: #F2F2F2;
+    background-color: #1D1D1D;
+    border-color: #02010100;
+}
+.elementor-button:hover svg,.elementor-button:focus svg {
+    fill: #F2F2F2;
+}
